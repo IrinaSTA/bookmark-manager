@@ -2,7 +2,10 @@
 
 source "https://rubygems.org"
 
-gem 'sinatra'
+gem 'capybara'
 gem 'rspec'
 gem 'rubocop'
-gem 'capybara'
+gem 'sinatra'
+gem 'selenium-webdriver'
+gem 'simplecov', require: true
+gem 'simplecov-console', require: true
